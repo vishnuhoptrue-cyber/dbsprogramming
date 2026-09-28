@@ -1,9 +1,11 @@
+alert("JavaScript file is working!");
+
 let sum = 0;
 
 for (let i = 1; i < 1000; i++) {
     if (i % 3 === 0 || i % 5 === 0) {
-        sum += i;
+        sum = sum + i;
     }
 }
 
-console.log(sum);
+alert("The answer is: " + sum);
