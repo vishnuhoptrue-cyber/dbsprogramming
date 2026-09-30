@@ -1,34 +1,30 @@
 <html>
 <head>
-    <script>
-        alert("Hello World!");
-    </script>
-
-    <script src="exp1.js"></script>
+    <script src="ex1.js" defer></script>
+    <script src="ex3.js" defer></script>
 </head>
-
 <body>
     Hello World!
-    <br>
+    <br/>
 
-    Fake change!
-    <br>
+    Ex 1: Sum of all multiples of 3 or 5 below 1000.
+    <button onclick="euler1()">Run Ex 1</button>
+    <br/><br/>
 
-    Ex 1: If we list all the natural numbers below 10 that are
-    multiples of 3 or 5, we get 3, 5, 6 and 9.
-    The sum of these multiples is 23.
+    Ex 2: Sum of all multiples of a or b below n.<br/>
+    a: <input id="a" type="number" value="3">
+    b: <input id="b" type="number" value="5">
+    n: <input id="n" type="number" value="1000">
+    <button onclick="euler2()">Run Ex 2</button>
+    <br/><br/>
 
-    <br>
-
-    Find the sum of all the multiples of 3 or 5 below 1000 and alert this.
-
-    <br><br>
-
-    Ex 2: Create a function to find the sum of all the multiples
-    of a or b below n.
-
-    <br>
-
-    Ex 2.1 Use text boxes to get a, b and n.
+    Exercises 3-5<br/>
+    List l (space separated): <input id="l" value="1 2 3 4 5 6 7 9 10 10 10"><br/>
+    Ex 3.1: a, b: <input id="a3" type="number" value="2"> <input id="b3" type="number" value="3">
+    <button onclick="eulerlist()">Run 3.1</button><br/>
+    Ex 4.1: list a (space separated): <input id="a4" value="2 3">
+    <button onclick="euler2Lists()">Run 4.1</button><br/>
+    Ex 5.1: list a (space separated): <input id="a5" value="2 3 5">
+    <button onclick="euler2Lists1()">Run 5.1</button>
 </body>
 </html>
