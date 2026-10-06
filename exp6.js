@@ -69,3 +69,6 @@ let convertCurrency = (currency) => {
 
 // Convert to Euro
 convertCurrency("EUR");
+convertCurrency("INR");
+convertCurrency("GBP");
+convertCurrency("AED");
